@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = prompt("Nhập vào");
+    arr = arr.split('');
+    let number = []
+    for (let i = 0; i< arr.length;i++){
+        if(arr[i] === "-"){
+            arr[i] = "_";
+        }
+    }
+    document.write(arr.join(""));//nối 2 phần tử cho 1 ký tự nào đó
+</script>
+</html>
